@@ -13,12 +13,12 @@
 <!--font-family: avenir-lt-w01_85-heavy1475544, sans-serif;-->
 
 <body>
-    <reader class="cabecalho">
+    <reader id="cabecalho">
         <nav class="navegation">
-            <a href="#hugo">Hugo Costa</a>
-            <a href="#experiencia">Experiência</a>
-            <a href="#formacao">Formação</a>
-            <a href="#habilidades">Habilidades</a>
+            <a class="nome" href="#hugo"><strong>Hugo Costa</strong></a>
+            <a class="experi" href="#experiencia">Experiência</a>
+            <a class="forma" href="#formacao">Formação</a>
+            <a class="habili" href="#habilidades">Habilidades</a>
         </nav>
     </reader>
 
@@ -36,19 +36,15 @@
         </div>
 
         <div class="info">
-            <h6 class="fonteh6">Hugo Costa</h6>
-            <p>Estudante de Desenvolvimento na Trybe<p>
-                <br>
-            <h6 class="fonteh6">Tefone: </h6>
-            <p>(31)98739-7135</p>
-                <br>
-            <h6 class="fonteh6">E-mail: </h6>
-            <p>hleoc@hotmail.com</p>
-                <br>
-            <h6 class="fonteh6">Endereço: </h6>
-            <p>Rua Francisco Augusto Rocha, 101<br>
-                Ap. 705 - Bl 1
-            </p>
+
+            <ul class="dados">
+                <li><h6><strong>Hugo Costa</strong></h6></li>
+                <li><h6 class="fonteh6">Cel: (31) 98739-7135</h6></li>
+                <li><h6 class="fonteh6">E-mail: <em>hleoc@hotmail.com</em></h6></li>
+                <li><h6 class="fonteh6">Endereço: Rua Francisco Augusto Rocha, 101<br>
+                    Ap. 705 - Bl 1</h6></li>
+
+            </ul>
                 
         </div>
     </section>
@@ -57,9 +53,9 @@
 
     <div class="icones">
     
-        <a href="https://www.linkedin.com/in/hugo-costa-9b032831/"><img  class="linkedin" src="/Imagens/linkedin.png" alt="Icone do linkedin"></a>
-        <a href="https://www.facebook.com/hugo.costa.528"><img  class="facebook" src="/Imagens/facebook.png" alt="Icone do facebook"></a>
-        <a href="https://github.com/hleoc"><img  class="github" src="/Imagens/github2.png" alt="Icone do github"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/hugo-costa-9b032831/"><img  class="linkedin" src="/Imagens/linkedin.png" alt="Icone do linkedin"></a>
+        <a target="_blank" href="https://www.facebook.com/hugo.costa.528"><img  class="facebook" src="/Imagens/facebook.png" alt="Icone do facebook"></a>
+        <a target="_blank" href="https://github.com/hleoc"><img  class="github" src="/Imagens/github2.png" alt="Icone do github"></a>
     
     </div>
 
@@ -160,44 +156,69 @@
         </section>
 
         <section>
-            <section>
-                <h6 class="datah6">02/2010 a 02/2011</h6>
-                <p>Pós graduação em Gerenciamento de Projetos</p>
-                <p>Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
-                <p></p>
+            <section class="formacaoli" >
+                <ol>
+                    <li><h6 class="formah6" >02/2010 a 02/2011</h6></li>
+                    <p class="formap" >Pós graduação em Gerenciamento de Projetos<br> 
+                        Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
+                </ol>  
             </section>
             
-            <section>
-                <h6 class="datah6">02/2004 a 12/2007</h6>
-                <p>Bacharel e Administração de Empresas</p>
-                <p>Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
-                <p></p>
+            <section class="formacaoli" >
+                <ol start="2">
+                    <li><h6 class="formah6" >02/2004 a 12/2007</h6></li>
+                    <p class="formap" >Bacharel em Administração de Empresas<br> 
+                        Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
+                </ol>  
             </section>
-            <section>
-                <h6 class="datah6">02/1999 a 12/2000</h6>
-                <p>Conclusão do Ensino Médio</p>
-                <p>Colégio Brasileiro</p>
-                <p>Segundo grau técnico em processamento de dados</p>
-            </section>
-        </section>
 
-        <!-- <img src="https://z6c581w6t6431l0x52324ung-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/softskills.jpg" alt="softskills" width="203">-->
-        <section>
-            <h5 class="fonth5" id="habilidades">HABILIDADES:</h5>
-        </section>
-        <section>
-            <ul>
-                <li><strong>Esforçado</strong></li>
-                <li>Focado nos resultados</li>
-                <li>Leal</li>
-                <li>Trabalho em grupo</li>
-                <li>Otimista</li>
-            </ul>
-        </section>
+            <section class="formacaoli" >
+                <ol start="2">
+                    <li><h6 class="formah6" >02/1999 a 12/2000</h6></li>
+                    <p class="formap" >Colégio Brasileiro - Ensino Médio<br> 
+                        Segundo grau técnico em processamento de dados</p>
+                </ol>  
+            </section>
         
+
+            <section>
+                <h5 class="fonth5" id="habilidades">HABILIDADES:</h5>
+            </section>
+            <section class="habilidade-tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ÍNDICE</th>
+                            <th>SOFT SKILLS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td class="skill">Esforçado</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="skill">Focado nos resultados</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="skill">Leal</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="skill">Trabalho em grupo</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td class="skill">Otimista</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>        
     
         <section>
-            <footer class="rodape">
+            <footer id="rodape">
                 <h3>Copyright © - BH Manuteção de Computadores e Desenvolvimento de Sistemas</h3>
                 <a href="#minhafoto">Topo</a>
             </footer>
