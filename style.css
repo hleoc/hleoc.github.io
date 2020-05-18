@@ -7,6 +7,7 @@ body {
     color: #182153;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
+    background-color: rgb(245, 241, 241);
 
 }
 
@@ -55,19 +56,39 @@ a {
     text-decoration: none;
 }
 
-.cabecalho {
+#cabecalho {
     position: fixed;
     border: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 100px;
+    vertical-align: middle;
+}
 
+#cabecalho .navegation .nome{
+    margin-left: 40px;
+    font-size: 30px;
+     
+}
+
+#cabecalho .navegation .experi{
+    margin-left: 630px;
+    font-size: 18px; 
+}
+
+#cabecalho .navegation .forma{
+    margin-left: 50px;
+    font-size: 18px; 
+}
+
+#cabecalho .navegation .habili{
+    margin-left: 50px;
+    font-size: 18px; 
 }
 
 .foto-info .foto {
     position: absolute;           
     margin-top: 112px;
-    margin-left: 298px; 
-    
+    margin-left: 298px;     
 }
 
 .foto-info .info {
@@ -77,16 +98,20 @@ a {
     height: 440px;            
     position: absolute;
     background-color:rgb(224, 216, 216)
-    
 }
+
+.foto-info .info .dados{
+    padding: 40px;
+    font-size: 30px;
+    line-height: 60px;
+}
+
 .bloco{
     width: 100%;
     float: right ;
     clear:both;
     padding: 350px;
-    
 }
-
 
 .icones{
     position: absolute;
@@ -96,22 +121,19 @@ a {
     clear: both;
     margin-top: 550px;
     margin-left: 297px;
-    text-align: center;                     
-    
+    text-align: center;                         
 }
 
 .icones .linkedin{
     margin-right: 70px;
     margin-top: 13px;
     width: 24px;
-    
 }
 
 .icones .facebook{
     margin-right: 70px;
     margin-top: 13px;
     width: 24px;
-
 }  
 
 .icones .github{
@@ -121,7 +143,6 @@ a {
 
 .container{
     clear:both;
-    
 }
 
 .resumo p{
@@ -132,19 +153,14 @@ a {
     letter-spacing:normal;
     font-size:14px;
     margin-bottom: 30px;
-    
 }
 
 .resumo h4{
-
-    
     margin-bottom: 30px;
 }
 
 .resumo{
-    
     margin-bottom: 100px;
-    
 }
 
 .exp1{
@@ -157,14 +173,13 @@ a {
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
-
 }
 
 .textoexp .empresa{
     font-weight: bold;
     margin-bottom: 5px;
-
 }
+
 .textoexp{
     width: 45%;
     text-align:justify;
@@ -172,9 +187,30 @@ a {
     margin-left: 10px;
     margin-right: 10px;
     vertical-align: top;
+}
+
+.formacaoli .formah6{
+    text-align: center;
+    font-size: 15px;
+}
+
+.formacaoli .formap{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.habilidade-tabela{
+    margin-left: 43%;
+    margin-bottom: 50px;
+    font-size: 15px;
 
 }
 
-.rodape{
+.habilidade-tabela .skill{
+    margin: 50%;
+    padding-left: 80px;
+}
+
+#rodape{
     text-align: center;
 }
