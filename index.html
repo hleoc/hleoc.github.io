@@ -7,212 +7,202 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
         media="all">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            color: #182153;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 10px;
-
-        }
-
-        .imagem img {
-            background-image: url("/Imagens/predios.jpg") no-repeat;
-            position: absolute;
-            width: 100%;
-            height: 80%;
-
-
-
-        }
-
-
-
-
-        .fonteh6 {
-            font-family: Montserrat, sans-serif;
-            font-size: 14px;
-            line-height: 1.3em;
-        }
-
-        .datah6 {
-            font-size: 14px;
-            line-height: 1.8em;
-            text-align: right;
-        }
-
-        .fonth4 {
-            line-height: normal;
-            font-size: 30px;
-            text-align: center;
-        }
-
-        .fonth5 {
-            font-size: 20px;
-            text-align: center;
-            line-height: normal;
-
-        }
-
-        p {
-            font-family: Montserrat, sans-serif;
-            font-size: 18px;
-            color: #182153;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .cabecalho {
-            position: fixed;
-            border: 100px;
-            margin-top: 100px;
-            margin-bottom: 100px;
-
-
-
-        }
-
-        .foto {
-            position: absolute;
-            float: left;
-        }
-
-        .clear {
-            clear: both;
-        }
-
-        .info {
-            padding-top: 600px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    
 </head>
 <!--font-family: avenir-lt-w01_85-heavy1475544, sans-serif;-->
 
 <body>
     <reader class="cabecalho">
-        <a href="#hugo">Hugo Costa</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#formacao">Formação</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#contatos">Contato</a>
+        <nav class="navegation">
+            <a href="#hugo">Hugo Costa</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#formacao">Formação</a>
+            <a href="#habilidades">Habilidades</a>
+        </nav>
     </reader>
 
-    <!--<img src="https://i.pinimg.com/736x/38/74/e3/3874e36a23e73db8b15a9e16d6a2054f.jpg" alt="Fundo Verde">-->
-    <!--<img src="https://www.infomoney.com.br/wp-content/uploads/2019/06/predios-comerciais-4.jpg?w=768&quality=75&strip=all"
-            alt="Imagem de Fundo com Prédios comerciais">-->
-
-    <div class="imagem">
-        <img src="/Imagens/predios.jpg" alt="Imagem de Fundo com Prédios comerciais" ;>
+    <div class="imagem" id="minhafoto">
+        <img src="/Imagens/predios3.jpg" alt="Imagem de Fundo com Prédios comerciais" ;>
 
     </div>
 
-    <div class="foto">
+    
 
-        <img src="/Imagens/foto 2.png" alt="Foto de Hugo Costa" width="203px">
+    <section class="foto-info">
 
+        <div class="foto">
+            <img src="/Imagens/foto 3.png" alt="Foto de Hugo Costa" width="330px">
+        </div>
+
+        <div class="info">
+            <h6 class="fonteh6">Hugo Costa</h6>
+            <p>Estudante de Desenvolvimento na Trybe<p>
+                <br>
+            <h6 class="fonteh6">Tefone: </h6>
+            <p>(31)98739-7135</p>
+                <br>
+            <h6 class="fonteh6">E-mail: </h6>
+            <p>hleoc@hotmail.com</p>
+                <br>
+            <h6 class="fonteh6">Endereço: </h6>
+            <p>Rua Francisco Augusto Rocha, 101<br>
+                Ap. 705 - Bl 1
+            </p>
+                
+        </div>
+    </section>
+    
+    <div class="bloco"></div>
+
+    <div class="icones">
+    
+        <a href="https://www.linkedin.com/in/hugo-costa-9b032831/"><img  class="linkedin" src="/Imagens/linkedin.png" alt="Icone do linkedin"></a>
+        <a href="https://www.facebook.com/hugo.costa.528"><img  class="facebook" src="/Imagens/facebook.png" alt="Icone do facebook"></a>
+        <a href="https://github.com/hleoc"><img  class="github" src="/Imagens/github2.png" alt="Icone do github"></a>
+    
     </div>
-    <div class="clear"></div>
-
-    <div class="info">
-
-        <h4 id="hugo">Hugo Costa</h4>
-        <h5>Estudante de desenvolvimento na Trybe</h5>
-        <h6 class="fonteh6">Tefone: </h6>
-        <p>(31)98739-7135</p>
-        <h6 class="fonteh6">E-mail: </h6>
-        <p>hleoc@hotmail.com</p>
-        <h6 class="fonteh6">Endereço: </h6>
-        <p>Rua Francisco Augusto Rocha, 101<br>
-            Ap. 705 - Bl 1
-        </p>
-
-    </div>
-
-    <div>
-        <h4 class="fonth4">Olá! Eu sou o Hugo</h4>
-
-        <p>Bacharel em Administração de Empresas e pós graduado em Gerenciamento de Projetos.<br>
-            Tenho experiência em condução de projetos, desde o seu planejamento até a execução. <br>
-            Além disso, atuei como Assistente de Projetos no PMI - Project Management Institute (Chapter MG).</p>
-
-        <p>Sou brasileiro, residente em <em>Belo Horizonrte/MG</em>. <br></p>
-    </div>
-
-    <h5 class="fonth5" id="experiencia">EXPERIÊNCIA</h5>
-    <h6 class="datah6">12/2016 a 06/2020</h6>
-    <p>Técnico de Informática</p>
-    <p>Gpj Informática</p>
-    <p>realizando serviços na área de infraestrutura como instalação e configuração<br>
-        de Servidores (com Windows Server 2012), instalação e configuração de roteadores,<br>
-        switch, mikrotik e manutenção de notebook, desktops e suporte in loco e remotamente.</p>
-
-    <h6 class="datah6">De 04/2014 a 12/2016</h6>
-    <p>BH Manutenção de Computadores</p>
-    <p>Técnico de Informática</p>
-    <p>realizando serviços técnicos de informática,
-        recuperação de placa mãe, rede wireless e cabeada, formatação, instalação de softwares
-        e manutenção preventiva.</p>
-
-    <h6 class="datah6">De 06/2013 a 03/2014</h6>
-    <p>Sistema Divina Providência</p>
-    <p>Coordenador da área Profissional</p>
-    <p>onde acompanhava as atividades realizadas, conduzia reuniões e apresentava relatório semanais.</p>
-
-    <h6 class="datah6">De 04/2011 a 05/2012</h6>
-    <p>Mastermaq Softwares</p>
-    <p>Coordenador de Canais</p>
-    <p>onde atuava junto aos parceiros na reestruturação de processos e otimização de recursos.</p>
-
-    <h6 class="datah6">06/2010 a 12/2010</h6>
-    <p>PMI - Project Management Institute (Chapter MG)</p>
-    <p>Assistente de Projetos(temporário)</p>
-    <p>sendo responsável pelas compras, administração de contratos e pelo levantamento
-        e especificação de requisitos de produtos.</p>
-
-    <h6 class="datah6">De 12/2008 a 06/2010</h6>
-    <p>WebAula</p>
-    <p>Coordenador de Projetos</p>
-    <p>na condução de projeto, preparação das documentações, planejamento, elaboração e controle dos cronogramas por
-        meio
-        do MS Project.</p>
-
-    <h5 class="fonth5" id="formacao">FORMAÇÃO</h5>
-
-    <h6 class="datah6">02/2010 a 02/2011</h6>
-    <p>Pós graduação em Gerenciamento de Projetos</p>
-    <p>Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
-    <p></p>
-
-    <h6 class="datah6">02/2004 a 12/2007</h6>
-    <p>Bacharel e Administração de Empresas</p>
-    <p>Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
-    <p></p>
-
-    <h6 class="datah6">02/1999 a 12/2000</h6>
-    <p>Conclusão do Ensino Médio</p>
-    <p>Colégio Brasileiro</p>
-    <p>Segundo grau técnico em processamento de dados</p>
 
 
-    <!-- <img src="https://z6c581w6t6431l0x52324ung-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/softskills.jpg" alt="softskills" width="203">-->
+    <section class="container">
+        <section class="resumo">
+            <h4 class="fonth4">Olá! Eu sou o Hugo</h4>
 
-    <h5 class="fonth5" id="habilidades">HABILIDADES:</h5>
-    <ul>
-        <li><strong>Esforçado</strong></li>
-        <li>Focado nos resultados</li>
-        <li>Leal</li>
-        <li>Trabalho em grupo</li>
-        <li>Otimista</li>
-    </ul>
+            <p>Bacharel em Administração de Empresas e pós graduado em Gerenciamento de Projetos.<br>
+                Tenho experiência em condução de projetos, desde o seu planejamento até a execução. <br>
+                Além disso, atuei como Assistente de Projetos no PMI - Project Management Institute (Chapter MG).</p>
 
-    <a href="#minhafoto">Topo</a>
+            <!--<p>Sou brasileiro, residente em <em>Belo Horizonrte/MG</em>. <br></p>-->
+        </section>
 
+        <section>
+            <h5 class="fonth5" id="experiencia">EXPERIÊNCIA</h5>
+        </section>
+        
+        <section>
+                    
+            <section class="exp1">
+                <div class="dataexp">
+                    <h6 class="datah6">12/2016 a 06/2020</h6>
+                    <p>Técnico de Informática</p>
+                </div>
+                <div class="textoexp">
+                    <p class="empresa">Gpj Informática</p>
+                    <p>Serviços na área de infraestrutura como instalação e configuração de Servidores
+                        (com Windows Server 2012). Instalação e configuração de roteadores, 
+                        switchs e mikrotik. Manutenção de notebook, desktops e suporte in loco e remotamente.</p>
+                </div>
+            </section>
+
+            <section class="exp1">
+                <div class="dataexp">
+                    <h6 class="datah6">De 04/2014 a 12/2016</h6>
+                    <p>Técnico de Informática</p>
+                </div>
+                <div class="textoexp">
+                    <p class="empresa">BH Manutenção de Computadores</p>
+                    <p>realizando serviços técnicos de informática,
+                        recuperação de placa mãe, rede wireless e cabeada, formatação, instalação de softwares
+                        e manutenção preventiva.</p>
+                </div>
+            </section>
+
+            <section class="exp1">
+                <div class="dataexp">    
+                    <h6 class="datah6">De 06/2013 a 03/2014</h6>
+                    <p>Coordenador da área Profissional</p>
+                </div>
+                <div class="textoexp">
+                    <p class="empresa">Sistema Divina Providência</p>    
+                    <p>onde acompanhava as atividades realizadas, conduzia reuniões e apresentava relatório semanais.</p>
+                </div>
+            </section>
+
+            <section class="exp1">
+                <div class="dataexp">
+                    <h6 class="datah6">De 04/2011 a 05/2012</h6>
+                    <p>Coordenador de Canais</p>
+                </div>
+                <div class="textoexp">
+                    <p class="empresa">Mastermaq Softwares</p>    
+                    <p>onde atuava junto aos parceiros na reestruturação de processos e otimização de recursos.</p>
+                </div>
+            </section>
+
+            <section class="exp1">
+                <div class="dataexp">
+                    <h6 class="datah6">06/2010 a 12/2010</h6>
+                    <p>Assistente de Projetos(temporário)</p>
+                </div>
+                <div class="textoexp">
+                    <p class="empresa">PMI - Project Management Institute (Chapter MG)</p>
+                    <p>sendo responsável pelas compras, administração de contratos e pelo levantamento
+                        e especificação de requisitos de produtos.</p>
+                </div>
+            </section>
+
+            <section class="exp1">
+                <div class="dataexp">
+                    <h6 class="datah6">De 12/2008 a 06/2010</h6>
+                    <p>Coordenador de Projetos</p>
+                </div>
+                <div class="textoexp">
+                    <p class="empresa">WebAula</p>    
+                    <p>na condução de projeto, preparação das documentações, planejamento, elaboração e controle dos cronogramas por
+                        meio
+                        do MS Project.</p>
+                </div>
+            </section>
+        
+        </section>
+        <section>
+            <h5 class="fonth5" id="formacao">FORMAÇÃO</h5>
+        </section>
+
+        <section>
+            <section>
+                <h6 class="datah6">02/2010 a 02/2011</h6>
+                <p>Pós graduação em Gerenciamento de Projetos</p>
+                <p>Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
+                <p></p>
+            </section>
+            
+            <section>
+                <h6 class="datah6">02/2004 a 12/2007</h6>
+                <p>Bacharel e Administração de Empresas</p>
+                <p>Pontifícia Universidade Católica de Minas Gerais(PUC)</p>
+                <p></p>
+            </section>
+            <section>
+                <h6 class="datah6">02/1999 a 12/2000</h6>
+                <p>Conclusão do Ensino Médio</p>
+                <p>Colégio Brasileiro</p>
+                <p>Segundo grau técnico em processamento de dados</p>
+            </section>
+        </section>
+
+        <!-- <img src="https://z6c581w6t6431l0x52324ung-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/softskills.jpg" alt="softskills" width="203">-->
+        <section>
+            <h5 class="fonth5" id="habilidades">HABILIDADES:</h5>
+        </section>
+        <section>
+            <ul>
+                <li><strong>Esforçado</strong></li>
+                <li>Focado nos resultados</li>
+                <li>Leal</li>
+                <li>Trabalho em grupo</li>
+                <li>Otimista</li>
+            </ul>
+        </section>
+        
+    
+        <section>
+            <footer class="rodape">
+                <h3>Copyright © - BH Manuteção de Computadores e Desenvolvimento de Sistemas</h3>
+                <a href="#minhafoto">Topo</a>
+            </footer>
+        </section>
+    </section>
 </body>
 
 </html>
